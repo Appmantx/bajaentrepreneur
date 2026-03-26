@@ -4,3 +4,17 @@ output/
 .env
 *.log
 .DS_Store
+
+# Database files
+*.db
+
+# Inbox folders (personal working files)
+owner_inbox/*
+!owner_inbox/.gitkeep
+team_inbox/*
+!team_inbox/.gitkeep
+!team_inbox/**/.gitkeep
+
+# Large asset files
+assets/images/*
+!assets/images/.gitkeep
